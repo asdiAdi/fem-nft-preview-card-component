@@ -95,20 +95,16 @@ body {
 }
 
 .card__info__data {
-  width: 5.468rem;
   font: 600 0.9375rem Outfit, sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.375rem;
 }
-
 .card__info__data--balance {
-  width: 5.468rem;
   color: var(--cyan);
 }
-
 .card__info__data--expiry {
-  width: 5.793rem;
   color: var(--soft-blue);
 }
 
