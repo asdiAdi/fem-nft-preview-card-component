@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT preview card component</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Outfit 300 400 600 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="card">
+        <div class="card__display">
+          <img
+            src="images/image-equilibrium.jpg"
+            alt="equilibrium"
+            class="card__display__img"
+          />
+          <a href="#" class="card__display__overlay">
+            <img
+              src="images/icon-view.svg"
+              alt="eye"
+              class="card__display__img card__display__img--overlay"
+            />
+          </a>
+        </div>
+
+        <h1 class="card__title"><a href="#">Equilibrium #3429</a></h1>
+
+        <p class="card__description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <div class="card__info">
+          <span class="card__info__data card__info__data--balance">
+            <img src="images/icon-ethereum.svg" alt="icon-ethereum" />
+            <span>0.041 ETH</span>
+          </span>
+          <span class="card__info__data card__info__data--expiry">
+            <img src="images/icon-clock.svg" alt="icon-clock" />
+            <span>3 days left</span>
+          </span>
+        </div>
+
+        <div class="card__divider"></div>
+
+        <div class="card__user">
+          <img
+            src="images/image-avatar.png"
+            alt="user-avatar"
+            class="card__user__avatar"
+          />
+          <p class="card__user__info">
+            Creation of
+            <a href="#" class="card__user__info__name">Jules Wyvern</a>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
